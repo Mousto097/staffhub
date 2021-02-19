@@ -18,8 +18,9 @@ StaffHub is a web application that will help you manage your employee data. An a
 StaffHub is broken down into 2 different services: Frontend and Backend.
 - Frontend: Serves the React app that is the web interface for StaffHub
 - Backend: Manages data coming into and out of the database.
+
 The interactions between all of these services is described using the following diagram:
-    [staffhub-architecture-overview-screenshot](docs/images/Architecture-Overview.png)
+    ![staffhub-architecture-overview-screenshot](docs/images/Architecture-Overview.png)
 
 
 ## Getting started
