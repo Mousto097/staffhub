@@ -20,7 +20,7 @@ StaffHub is broken down into 2 different services: Frontend and Backend.
 - Backend: Manages data coming into and out of the database.
 
 The interactions between all of these services is described using the following diagram:
-    ![staffhub-architecture-overview-screenshot](docs/images/Architecture-Overview.png)
+    ![staffhub-architecture-overview-screenshot](docs/images/Architecture-Overview2.png)
 
 
 ## Getting started
