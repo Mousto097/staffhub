@@ -11,7 +11,7 @@ coming soon...
 
 Visit our wiki for more information about our tech stack, software requirement, database schema, etc...
 
-# Author
+## Author
 
 - Mamadou Moustapha Bah
 -- Full Stack Developer
