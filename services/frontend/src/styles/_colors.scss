@@ -1,0 +1,90 @@
+/** Primary Colors - Blue **/
+
+$color-primary-1: #0D47A1;
+$color-primary-2: #1565C0;
+$color-primary-3: #1976D2;
+$color-primary-4: #1E88E5;
+$color-primary-5: #2196F3;
+$color-primary-6: #42A5F5;
+$color-primary-7: #64B5F6;
+$color-primary-8: #90CAF9;
+$color-primary-9: #BBDEFB;
+$color-primary-10: #E3F2FD;
+
+/** Secondary Colors - Teal **/
+
+$color-secondary-1: #004D40;
+$color-secondary-2: #00695C;
+$color-secondary-3: #00796B;
+$color-secondary-4: #00897B;
+$color-secondary-5: #009688;
+$color-secondary-6: #26A69A;
+$color-secondary-7: #4DB6AC;
+$color-secondary-8: #80CBC4;
+$color-secondary-9: #B2DFDB;
+$color-secondary-10: #E0F2F1;
+
+/** Neutral Colors - Blue Grey **/
+
+$color-neutral-1: #102A43;
+$color-neutral-2: #243B53;
+$color-neutral-3: #334E68;
+$color-neutral-4: #416588;
+$color-neutral-5: #627D98;
+$color-neutral-6: #829AB1;
+$color-neutral-7: #9FB3C8;
+$color-neutral-8: #BCCCDC;
+$color-neutral-9: #D9E2EC;
+$color-neutral-10: #F0F4F8;
+
+/** Supporting Colors - Red (Vivid) **/
+
+$color-attention-1: #610316;
+$color-attention-2: #8A041A;
+$color-attention-3: #AB091E;
+$color-attention-4: #CF1124;
+$color-attention-5: #E12D39;
+$color-attention-6: #EF4E4E;
+$color-attention-7: #F86A6A;
+$color-attention-8: #FF9B9B;
+$color-attention-9: #FFBDBD;
+$color-attention-10: #FFE3E3;
+
+/** Supporting Colors - Yellow (Vivid) **/
+
+$color-notice-1: #8D2B0B;
+$color-notice-2: #B44D12;
+$color-notice-3: #CB6E17;
+$color-notice-4: #DE911D;
+$color-notice-5: #F0B429;
+$color-notice-6: #F7C948;
+$color-notice-7: #FADB5F;
+$color-notice-8: #FCE588;
+$color-notice-9: #FFF3C4;
+$color-notice-10: #FFFBEA;
+
+/** Semantic Colors **/
+
+$color-primary: $color-primary-5;
+$color-primary-hover: $color-primary-4;
+$color-primary-dark: $color-primary-2;
+$color-primary-light: $color-primary-9;
+$color-primary-super-light: $color-primary-10;
+$color-secondary: $color-secondary-5;
+$color-secondary-dark: $color-secondary-2;
+$color-secondary-light: $color-secondary-9;
+$color-light: rgba(255, 255, 255, 90%);
+$color-text-primary: $color-neutral-2;
+$color-text-secondary: $color-neutral-6;
+$color-background-neutral: $color-neutral-4;
+$color-background-dark: $color-neutral-2;
+$color-background-light: #F0F4F8;
+$color-background-white: #FFFFFF;
+$color-card-header: $color-neutral-9;
+$color-card-background: #FAFAFA;
+$color-attention: $color-attention-5;
+$color-attention-dark: $color-attention-1;
+$color-attention-light: $color-attention-9;
+$color-notice: $color-notice-4;
+$color-notice-dark: $color-notice-1;
+$color-notice-light: $color-notice-9;

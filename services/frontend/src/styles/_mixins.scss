@@ -1,0 +1,93 @@
+@import "styles/_colors.scss";
+@import "_animations.scss";
+
+$default-transition-time: 0.1s;
+$default-percentage: 5%;
+
+@mixin smooth-transition-all() {
+    transition: all $default-transition-time $smooth-transition;
+}
+
+@mixin header-font() {
+    font-family: "Roboto", sans-serif;
+}
+
+@mixin body-font() {
+    font-family: "Roboto", sans-serif;
+}
+
+@mixin fab-dropshadow() {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+}
+
+@mixin hover-background($color, $hover-color) {
+    @include smooth-transition-all();
+
+    background-color: $color;
+
+    &:hover, &:focus {
+        background-color: $hover-color;
+    }
+}
+
+@mixin hover-box-shadow() {
+    transition: box-shadow 0.2s ease-out;
+
+    &:hover, &:focus {
+        box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@mixin hover-text($color, $hover-color) {
+    @include smooth-transition-all();
+
+    color: $color;
+
+    &:hover, &:focus {
+        color: $hover-color;
+    }
+}
+
+@mixin hover-border($color, $hover-color) {
+    @include smooth-transition-all();
+
+    border-color: $color;
+
+    &:hover, &:focus {
+        border-color: $hover-color;
+    }
+}
+
+@mixin animate($animation, $time) {
+    -webkit-animation: $animation $time; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: $animation $time; /* Firefox < 16 */
+    -ms-animation: $animation $time; /* Internet Explorer */
+    -o-animation: $animation $time; /* Opera < 12.1 */
+    animation: $animation $time;
+}
+
+@mixin background-image($url, $grayscale, $opacity, $positionX, $positionY) {
+    &:after {
+        content: ' ';
+        opacity: $opacity;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: url($url) no-repeat $positionX $positionY fixed;
+        background-size: cover;
+        position: absolute;
+        filter: grayscale($grayscale);
+    }
+}
+
+@mixin flip-image() {
+    &:after {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+}
