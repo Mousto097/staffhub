@@ -1,6 +1,4 @@
-## (Add StaffHub screenshot here)
-
- A system to manage employee data for your company.
+A system to manage employee data for your company.
 
 # What is StaffHub
 StaffHub is a web application that will help you manage your employee data. An authorized admin with the right credentials is able to login to the system, add a new employee data, edit employee data, delete employee data and finally list and filter employee data.
